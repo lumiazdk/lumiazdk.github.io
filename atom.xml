@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hugh</title>
+  
+  <subtitle>Hugh</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lumiazdk.github.io/"/>
+  <updated>2019-04-26T12:11:36.699Z</updated>
+  <id>http://lumiazdk.github.io/</id>
+  
+  <author>
+    <name>Hugh</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lumiazdk.github.io/2019/04/26/hello-world/"/>
+    <id>http://lumiazdk.github.io/2019/04/26/hello-world/</id>
+    <published>2019-04-26T12:11:36.698Z</published>
+    <updated>2019-04-26T12:11:36.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
