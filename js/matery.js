@@ -120,7 +120,7 @@ $(function () {
 
     /*回到顶部*/
     $('#backTop').click(function () {
-        $('body,html').animate({scrollTop: 0}, 400);
+        $('body,html').animate({ scrollTop: 0 }, 400);
         return false;
     });
 
@@ -138,4 +138,21 @@ $(function () {
             $backTop.slideDown(300);
         }
     });
+});
+
+var OriginTitle = document.title;
+var titleTime;
+document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+        $('[rel="icon"]').attr('href', "/img/trhx2.png");
+        document.title = 'ヽ(●-`Д´-)ノ你丑你就走！';
+        clearTimeout(titleTime);
+    }
+    else {
+        $('[rel="icon"]').attr('href', "/img/trhx2.png");
+        document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！' + OriginTitle;
+        titleTime = setTimeout(function () {
+            document.title = OriginTitle;
+        }, 2000);
+    }
 });
