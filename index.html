@@ -448,7 +448,7 @@ $(function () {
     new APlayer({
         container: document.getElementById('aplayer'),
         fixed: 'false' === 'true',
-        autoplay: 'false' === 'true',
+        autoplay: 'true' === 'true',
         theme: '#42b983',
         loop: 'all',
         order: 'list',
@@ -456,7 +456,7 @@ $(function () {
         volume: Number('0.7'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"五月雨变奏电音","artist":"AnimeVibe","url":"http://xxx.com/music1.mp3","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"/medias/music/music2.mp3","cover":"/medias/music/cover2.png"},{"name":"Shape of You","artist":"J.Fla","url":"http://xxx.com/music3.mp3","cover":"http://xxx.com/music-cover3.png"}]')
+        audio: JSON.parse('[{"name":"多想在平庸的生活拥抱你","artist":"蒲云飞&靖宇喆","url":"http://www.ytmp3.cn/down/59935.mp3","cover":"http://img.ytmp3.cn/image/65.jpg"},{"name":"只是太爱你","artist":"张敬轩","url":"http://www.ytmp3.cn/down/59450.mp3","cover":"http://img.ytmp3.cn/image/40.jpg"},{"name":"我曾","artist":"鱼大仙儿","url":"http://www.170mv.com/kw/sm.sycdn.kuwo.cn/resource/n3/63/70/1703688002.mp3","cover":"http://img4.kuwo.cn/star/starheads/240/99/22/3110345668.jpg"}]')
     });
 });
 </script>
@@ -513,13 +513,25 @@ $(function () {
                             </span>
                             <span class="publish-author">
                                 
-                                <i class="fa fa-user fa-fw"></i>
-                                Hugh
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/前端/" class="post-category" target="_blank">
+                                    前端
+                                </a>
+                                
                                 
                             </span>
                         </div>
                     </div>
 
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/vue/" target="_blank">
+                            <span class="chip bg-color">vue</span>
+                        </a>
+                        
+                    </div>
                     
                 </div>
             </div>
