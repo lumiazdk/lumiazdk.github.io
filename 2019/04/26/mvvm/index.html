@@ -708,29 +708,29 @@ CompileUtil<span class="token punctuation">.</span>on <span class="token operato
     </div>
 
     
-        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
 
-<div class="card gitalk-card" data-aos="fade-up">
-    <div id="gitalk-container" class="card-content"></div>
+    
+        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
+
+<div class="gitment-card card" data-aos="fade-up">
+    <div id="gitment-content" class="card-content"></div>
 </div>
 
-<script src="/libs/gitalk/gitalk.min.js"></script>
+<script src="/libs/gitment/gitment.js"></script>
 <script>
-    let gitalk = new Gitalk({
-        clientID: 'a8ee7aab0d57b5abb40b',
-        clientSecret: 'dd6f4668744592049e80d4d4175c6b407dbf8bff',
-        repo: 'lumiazdk.github.io',
-        owner: 'lumiazdk',
-        admin: ["lumiazdk 管理员"],
-        id: '2019-04-26T20-11-36',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
+var gitment = new Gitment({
+    id: 'Fri Apr 26 2019 20:11:36 GMT+0800',
+    owner: 'lumiazdk',
+    repo: 'lumiazdk.github.io',
+    oauth: {
+        client_id: 'a8ee7aab0d57b5abb40b',
+        client_secret: 'dd6f4668744592049e80d4d4175c6b407dbf8bff'
+    }
+});
 
-    gitalk.render('gitalk-container');
+gitment.render('gitment-content');
 </script>
-    
-
     
 
     
